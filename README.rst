@@ -81,7 +81,7 @@ You can find the latest version of the development documentation on `readthedocs
 You can run IPython from this directory without even installing it system-wide
 by typing at the terminal::
 
-   $ python -m IPython
+   $ python3 -m IPython
 
 Or see the `development installation docs
 <https://ipython.readthedocs.io/en/latest/install/install.html#installing-the-development-version>`_
@@ -112,7 +112,7 @@ If you encounter this error message with a regular install of IPython, then you
 likely need to update your package manager, for example if you are using `pip`
 check the version of pip with::
 
-  $ pip --version
+  $ pip3 --version
 
 You will need to update pip to the version 9.0.1 or greater. If you are not using
 pip, please inquiry with the maintainers of the package for your package
